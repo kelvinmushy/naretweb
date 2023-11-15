@@ -91,10 +91,14 @@ class StaffingController extends Controller
         // $startDate = Carbon::today();
         // $endDate = Carbon::today()->addDays(7);
         
-        $date=Carbon::now()->format('Y-m-d');
-        $due_date=Carbon::now()->format('Y-m-d');
+   
+        $due_date=Carbon::createFromFormat('Y-m-d',$request->date_in);
         $start_date=Carbon::today()->addDays(7);
         
+        $date = Carbon::createFromFormat('Y-m-d',$request->date_in);
+        $daysToAdd = 7;
+        $start_date= $date->addDays($daysToAdd);
+
         $invoice_status="pending";
         $record= DB::table('staffing')->orderBy('id', 'DESC')->first();
         if(!$record)
@@ -522,8 +526,13 @@ class StaffingController extends Controller
              'amount_due'=>'required',
          
         ]);
-        // $startDate = Carbon::today();
-        // $endDate = Carbon::today()->addDays(7);
+      
+        $due_date=Carbon::createFromFormat('Y-m-d',$request->date_in);
+        $start_date=Carbon::today()->addDays(7);
+        
+        $date = Carbon::createFromFormat('Y-m-d',$request->date_in);
+        $daysToAdd = 7;
+        $start_date= $date->addDays($daysToAdd);
         
         $date=Carbon::now()->format('Y-m-d');
        
@@ -582,7 +591,8 @@ class StaffingController extends Controller
             'withhold_amount1'=>round($withhold_amount,2),
             'created_at'=>$date,
             'invoice_status'=>$invoice_status,
-         
+            'start_date'=>$start_date,
+            'due_date'=>$due_date,
             'adds'=>$request->user,
             'currency'=>$request->currency,
             'current_value'=>$current_value,
@@ -676,7 +686,8 @@ class StaffingController extends Controller
             'net_total'=>round($net_total,2),
             'discount'=>round($discount,2),
             'sub_total'=>$subtotal,
-          
+            'start_date'=>$start_date,
+            'due_date'=>$due_date,
             'created_at'=>$date,
             'invoice_status'=>$invoice_status,
            
@@ -763,7 +774,8 @@ class StaffingController extends Controller
                'net_total'=>round($net_total,2),
                'discount'=>round($discount,2),
                'sub_total'=>round($subtotal,2),
-             
+               'start_date'=>$start_date,
+               'due_date'=>$due_date,
                'created_at'=>$date,
                'withhold_amount1'=>round($withhold_amount,2),
              
@@ -852,7 +864,8 @@ class StaffingController extends Controller
                 'discount'=>round($discount,2),
                 'sub_total'=>round($subtotal,2),
                 'withhold_amount'=>round($withhold_amount,2),
-             
+                'start_date'=>$start_date,
+                'due_date'=>$due_date,
                 'withhold'=>$withhold,
                 'created_at'=>$date,
                 'invoice_status'=>$invoice_status,
@@ -945,12 +958,16 @@ class StaffingController extends Controller
         ]);
     }
     public function apiStaffing(){
+        
         $staffing_get=DB::table('staffing')
         ->join('company_infor','staffing.company_id','=','company_infor.id')
       
         ->select('staffing.*','company_infor.name','company_infor.tin_number','company_infor.phone','company_infor.location')
         ->whereNotIn('invoice_status',['closed'])
+        ->orderBy('staffing.id', 'DESC')
         ->get();
+
+    
         
         return Datatables::of($staffing_get)
             ->addColumn('action', function($staffing_get){

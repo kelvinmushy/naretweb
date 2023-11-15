@@ -28,7 +28,7 @@
                       </div>
                       <div class='col-md-6'>
                       <label>Date</label>
-                      <input type="text" class="form-control" id="date_in" name="date_in" value="<?php $kevi=date('Y-m-d');echo $kevi?>"   required readonly>
+                      <input type="date" class="form-control" id="date_in" name="date_in"    required>
                      <span class="help-block with-errors"></span>
                       </div>
                       <!-- <div class='col-md-3'>

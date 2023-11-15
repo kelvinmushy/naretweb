@@ -127,6 +127,17 @@
       0 => 'Flasher\\Laravel\\FlasherServiceProvider',
     ),
   ),
+  'santigarcor/laratrust' => 
+  array (
+    'providers' => 
+    array (
+      0 => 'Laratrust\\LaratrustServiceProvider',
+    ),
+    'aliases' => 
+    array (
+      'Laratrust' => 'Laratrust\\LaratrustFacade',
+    ),
+  ),
   'spatie/laravel-ignition' => 
   array (
     'providers' => 

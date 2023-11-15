@@ -21,6 +21,7 @@ class FurmandCleanessController extends Controller
      */
     public function index()
     {
+       
         $status='closed';
         $comp=DB::table('company_infor')
                   ->where('staff_type','=','fumigation')
@@ -79,9 +80,12 @@ class FurmandCleanessController extends Controller
              'net_total'=>'required',
              'amount_due'=>'required',
         ]);
-        $date=Carbon::now()->format('Y-m-d');
-        $due_date="pending";
-        $start_date="pending";
+        $due_date=Carbon::createFromFormat('Y-m-d',$request->date_in);
+        $start_date=Carbon::today()->addDays(7);
+        
+        $date = Carbon::createFromFormat('Y-m-d',$request->date_in);
+        $daysToAdd = 7;
+        $start_date= $date->addDays($daysToAdd);
         $invoice_status="pending";
         // $record =FarmModel::latest()->first();
         // return $record;
@@ -511,9 +515,12 @@ class FurmandCleanessController extends Controller
        // $startDate = Carbon::today();
        // $endDate = Carbon::today()->addDays(7);
        
-       $date=Carbon::now()->format('Y-m-d');
-      
-       
+       $due_date=Carbon::createFromFormat('Y-m-d',$request->date_in);
+        $start_date=Carbon::today()->addDays(7);
+        
+        $date = Carbon::createFromFormat('Y-m-d',$request->date_in);
+        $daysToAdd = 7;
+        $start_date= $date->addDays($daysToAdd);
   
      
 
@@ -568,6 +575,8 @@ class FurmandCleanessController extends Controller
            'sub_total'=>round($subtotal,2),
            'created_at'=>$date,
            'adds'=>$request->user,
+           'start_date'=>$start_date,
+           'due_date'=>$due_date,
            'currency'=>$request->currency,
            'currency_value'=>$request->currency_value_value,
           'discount1'=>round($request->discount,2),
@@ -655,6 +664,8 @@ class FurmandCleanessController extends Controller
            'discount'=>round($discount,2),
            'sub_total'=>$subtotal,
            'created_at'=>$date,
+           'start_date'=>$start_date,
+           'due_date'=>$due_date,
            'adds'=>$request->user,
            'currency'=>$request->currency,
            'currency_value'=>$request->currency_value,
@@ -737,7 +748,8 @@ class FurmandCleanessController extends Controller
               'net_total'=>round($net_total,2),
               'discount'=>round($discount,2),
               'sub_total'=>round($subtotal,2),
-            
+              'start_date'=>$start_date,
+              'due_date'=>$due_date,
               'created_at'=>$date,
               'withhold_amount1'=>round($withhold_amount,2),
              
@@ -823,7 +835,8 @@ class FurmandCleanessController extends Controller
                'discount'=>round($discount,2),
                'sub_total'=>round($subtotal,2),
                'withhold_amount'=>round($withhold_amount,2),
-             
+               'start_date'=>$start_date,
+               'due_date'=>$due_date,
                'withhold'=>$withhold,
                'created_at'=>$date,
               
