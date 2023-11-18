@@ -19,7 +19,7 @@
     <link href="{{ asset('assets/website/css/owl.theme.default.min.css ') }}" rel="stylesheet" />
     <link href="{{ asset('assets/website/css/animate.min.css ') }}" rel="stylesheet" />
     <link href="{{ asset('assets/website/css/style.css ') }}" rel="stylesheet">
-
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     @yield('top')
 
     <link rel="stylesheet"

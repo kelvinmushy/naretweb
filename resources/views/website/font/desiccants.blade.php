@@ -22,17 +22,17 @@
                        <div class="col">
                         <div class="services-item">
                         <div class="services-img">
-                        <img src="{{ asset('assets/website//img/dry/dry3.jpg')}}" alt="">
+                        <img style="height" src="{{ asset('assets/website//img/dry/dry3.jpg')}}" alt="">
                         </div>
                         </div>
                        </div>
-                       <div class="col">
+                       {{-- <div class="col">
                         <div class="services-item">
                         <div class="services-img">
-                        <img src="{{ asset('assets/website//img/dry/dry1.jpg')}}" alt="">
+                        <img src="{{ asset('assets/website//img/dry/dry2.jpg')}}" alt="">
                         </div>
                     </div>
-                    </div>
+                    </div> --}}
                     </div>
                     <div class="col-lg-6">
                         <div class="about-right">

@@ -32,18 +32,18 @@
                                 data-wow-delay=".75s">
                                 The company is owned by Tanzania with good history, knowledge, experienced staff, and expertise in all operation
                             </p>
-                                <div class="hero-btn wow animate__animated animate__fadeInUp" data-wow-duration="1s"
+                                {{-- <div class="hero-btn wow animate__animated animate__fadeInUp" data-wow-duration="1s"
                                     data-wow-delay="1s">
                                     <a href="contact.html" class="theme-icon-btn">Contact Us <i
-                                            class="far fa-arrow-right"></i></a>
-                                    <a href="about.html" class="border-btn">About Us <i class="far fa-arrow-right"></i></a>
-                                </div>
+                                            class="fa fa-arrow-right"></i></a>
+                                    <a href="about.html" class="border-btn">About Us <i class="fa fa-arrow-right"></i></a>
+                                </div> --}}
                             </div>
                         </div>
                         <div class="col-md-5 col-lg-5">
                             <div class="video-btn">
-                                <a href="https://www.youtube.com/watch?v=ckHzmP1evNU" class="play-btn popup-youtube"><i
-                                        class="icofont-ui-play"></i></a>
+                                <a href="https://www.youtube.com/watch?v=XhzupXkOikY" class="play-btn popup-youtube">
+                                <i class="fa fa-play" style="margin-top:22px"></i></a>
                             </div>
                         </div>
                     </div>
@@ -64,18 +64,18 @@
                                     data-wow-delay=".75s">
                                     The company is owned by Tanzania with good history, knowledge, experienced staff, and expertise in all operation
                                 </p>
-                                <div class="hero-btn wow animate__animated animate__fadeInUp" data-wow-duration="1s"
+                                {{-- <div class="hero-btn wow animate__animated animate__fadeInUp" data-wow-duration="1s"
                                     data-wow-delay="1s">
                                     <a href="contact.html" class="theme-icon-btn">Contact Us <i
                                             class="far fa-arrow-right"></i></a>
                                     <a href="about.html" class="border-btn">About Us <i class="far fa-arrow-right"></i></a>
-                                </div>
+                                </div> --}}
                             </div>
                         </div>
                         <div class="col-md-5 col-lg-5">
                             <div class="video-btn">
-                                <a href="https://www.youtube.com/watch?v=ckHzmP1evNU" class="play-btn popup-youtube"><i
-                                        class="icofont-ui-play"></i></a>
+                                <a href="https://www.youtube.com/watch?v=KQy7Mss0cpA" class="play-btn popup-youtube"><i style="margin-top:22px;"
+                                        class="fa fa-play"></i></a>
                             </div>
                         </div>
                     </div>
@@ -96,18 +96,18 @@
                                     data-wow-delay=".75s">
                                     The company is owned by Tanzania with good history, knowledge, experienced staff, and expertise in all operation
                                 </p>
-                                <div class="hero-btn wow animate__animated animate__fadeInUp" data-wow-duration="1s"
+                                {{-- <div class="hero-btn wow animate__animated animate__fadeInUp" data-wow-duration="1s"
                                     data-wow-delay="1s">
                                     <a href="contact.html" class="theme-icon-btn">Contact Us <i
                                             class="far fa-arrow-right"></i></a>
                                     <a href="about.html" class="border-btn">About Us <i class="far fa-arrow-right"></i></a>
-                                </div>
+                                </div> --}}
                             </div>
                         </div>
                         <div class="col-md-5 col-lg-5">
                             <div class="video-btn">
-                                <a href="https://www.youtube.com/watch?v=ckHzmP1evNU" class="play-btn popup-youtube"><i
-                                        class="icofont-ui-play"></i></a>
+                                <a href="https://www.youtube.com/watch?v=igdRea1c5e4" class="play-btn popup-youtube">
+                                <i style="margin-top:22px" class="fa fa-play"></i></a>
                             </div>
                         </div>
                     </div>
@@ -123,7 +123,7 @@
                         <div class="col-md-6 col-lg-6">
                             <div class="feature-single-item">
                                 <div class="feature-icon">
-                                    <i class="flaticon-clean"></i>
+                                    <i class="fa fa-eye"></i>
                                 </div>
                                 <div class="feature-text">
                                     <h3>OUR VISION</h3>
@@ -137,7 +137,7 @@
                         <div class="col-md-6 col-lg-6">
                             <div class="feature-single-item">
                                 <div class="feature-icon">
-                                    <i class="flaticon-bubbles"></i>
+                                    <i class="fa fa-filter"></i>
                                 </div>
                                 <div class="feature-text">
                                     <h3>OUR MISSION</h3>
@@ -172,7 +172,7 @@
                                     <img  style="height:450px" src="{{ asset('assets/website/img/about/about3.jpeg')}}" alt="">
                                 </div>
                                 <div class="about-img-two">
-                                    <img src="{{ asset('assets/website/img/about/about4.jpg')}}" alt="">
+                                    <img  style="height:226px;width:206"src="{{ asset('assets/website/img/about/about4.jpg')}}" alt="">
                                 </div>
                             </div>
                         </div>
@@ -188,7 +188,7 @@
                             <div class="about-list-wrapper">
                                 <ul class="about-list list-unstyled">
                                     <li>
-                                        <div class="icon"><span class="far fa-check"></span></div>
+                                        <div class="icon"><span class="fa fa-check"></span></div>
                                         <div class="text">
                                             <p><span><b>NARET COMPANY LIMITED</b></span> satisfies client freight forwarding customs,example
                                             <br>
@@ -197,13 +197,13 @@
                                         </div>
                                     </li>
                                     <li>
-                                        <div class="icon"><span class="far fa-check"></span></div>
+                                        <div class="icon"><span class="fa fa-check"></span></div>
                                         <div class="text">
                                             <p>It’s the only company you can rely on to do what you want</p>
                                         </div>
                                     </li>
                                     <li>
-                                        <div class="icon"><span class="far fa-check"></span></div>
+                                        <div class="icon"><span class="fa fa-check"></span></div>
                                         <div class="text">
                                             <p>no matter how big or small your cargo is, we as <span><b>NARET COMPANY LIMITED</b></span> offers
                                                  comprehensive local, east, and African services for
@@ -213,9 +213,9 @@
                                 </ul>
                             </div>
                             <div class="about-solutions">
-                                <div class="about-solutions-icon">
+                                {{-- <div class="about-solutions-icon">
                                     <span class="fal fa-analytics"></span>
-                                </div>
+                                </div> --}}
                                 <div class="about-solutions-text-box">
                                     <p class="about-solutions-tex">We Provides Quality Services
                                         <br> That Increase Your Success.
@@ -299,7 +299,7 @@
                     <div class="col-md-6 col-lg-4">
                         <div class="services-item">
                             <div class="services-img">
-                                <img style="height:300px" src="{{ asset('assets/website/img/service/watching.jpeg')}}" alt="">
+                                <img style="height:300px" src="{{ asset('assets/website/img/service/watching.jpg')}}" alt="">
                             </div>
                             <div class="services-icon">
                                 <img src="{{ asset('assets/website/img/service/icon-2/1.png')}}" alt="">
@@ -691,7 +691,7 @@
         </div>
 
 
-        <div class="top-feature-area bg py-120">
+        {{-- <div class="top-feature-area bg py-120">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-6 mx-auto">
@@ -774,7 +774,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> --}}
 
 {{--
         <div class="partner-area2 mt-100 mb-100">
@@ -843,7 +843,7 @@
         </div>
 --}}
 
-        <div class="counter-area pt-50 pb-50">
+        {{-- <div class="counter-area pt-50 pb-50">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-3 col-sm-6">
@@ -884,7 +884,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> --}}
 
 
      {{-- 

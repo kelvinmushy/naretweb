@@ -6,7 +6,7 @@
     <div class="col-md-6 col-lg-3">
     <div class="footer-widget-box about-us">
     <a href="#" class="footer-logo">
-    <img src="assets/img/logo/logo.png" alt="">
+    <img  src="{{ asset('assets/website/img/logo/logo.png') }}" alt="">
     </a>
     <p class="mb-20">
     There are many variations of the passages available the majority have suffered
@@ -14,11 +14,11 @@
     some form by injected humour.
     </p>
     <ul class="footer-social">
-    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-    <li><a href="#"><i class="fab fa-instagram"></i></a></li>
-    <li><a href="#"><i class="fab fa-whatsapp"></i></a></li>
-    <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+    <li><a href="#"><i class="fa fa-facebook-f"></i></a></li>
+    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+    <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+    <li><a href="#"><i class="fa fa-whatsapp"></i></a></li>
+    <li><a href="#"><i class="fa fa-youtube"></i></a></li>
     </ul>
     </div>
     </div>
@@ -26,11 +26,11 @@
     <div class="footer-widget-box list">
     <h4 class="footer-widget-title">Quick Links</h4>
     <ul class="footer-list">
-    <li><a href="#"><i class="far fa-angle-double-right"></i> About Us</a></li>
-    <li><a href="#"><i class="far fa-angle-double-right"></i> FAQ's</a></li>
-    <li><a href="#"><i class="far fa-angle-double-right"></i> Terms Of Service</a></li>
-    <li><a href="#"><i class="far fa-angle-double-right"></i> Privacy policy</a></li>
-    <li><a href="#"><i class="far fa-angle-double-right"></i> Our Services</a></li>
+    <li><a href="#"><i class="fa fa-angle-double-right"></i> About Us</a></li>
+    <li><a href="#"><i class="fa fa-angle-double-right"></i> FAQ's</a></li>
+    <li><a href="#"><i class="fa fa-angle-double-right"></i> Terms Of Service</a></li>
+    <li><a href="#"><i class="fa fa-angle-double-right"></i> Privacy policy</a></li>
+    <li><a href="#"><i class="fa fa-angle-double-right"></i> Our Services</a></li>
     
     </ul>
     </div>
@@ -39,11 +39,11 @@
     <div class="footer-widget-box">
     <h4 class="footer-widget-title">Contact Us</h4>
     <ul class="footer-contact">
-    <li><i class="flaticon-location"></i>6230, Dar es Salam, Tanzannia</li>
-    <li><i class="flaticon-phone-call"></i><a href="tel:+255753995084">+255 753 995 084</a>
+    <li><i class="fa fa-map-marker"></i>6230, Dar es Salam, Tanzannia</li>
+    <li><i class="fa fa-phone"></i><a href="tel:+255753995084">+255 753 995 084</a>
     </li>
-    <li><i class="flaticon-mail-inbox-app"></i><a href="/cdn-cgi/l/email-protection#bcd5d2dad3fcd9c4ddd1ccd0d992dfd3d1"><span class="__cf_email__" data-cfemail="a0c9cec6cfe0c5d8c1cdd0ccc58ec3cfcd">naretfumigation@gmail.com</span></a></li>
-    <li><i class="flaticon-alarm-clock"></i>Sun - Fri (8AM - 5PM)</li>
+    <li><i class="fa fa-envelope"></i><a href="/cdn-cgi/l/email-protection#bcd5d2dad3fcd9c4ddd1ccd0d992dfd3d1"><span class="__cf_email__" data-cfemail="a0c9cec6cfe0c5d8c1cdd0ccc58ec3cfcd">naretfumigation@gmail.com</span></a></li>
+    <li><i class="fa fa-clock-o"></i>Sun - Fri (8AM - 5PM)</li>
     </ul>
     </div>
     </div>

@@ -8,11 +8,11 @@
                 </div>
                 <div class="top-header-right">
                     <div class="header-social">
-                        <a href="#"><i class="fab fa-facebook-f"></i></a>
-                        <a href="#"><i class="fab fa-twitter"></i></a>
-                        <a href="#"><i class="fab fa-instagram"></i></a>
-                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
-                        <a href="#"><i class="fab fa-whatsapp"></i></a>
+                        <a href="#"><i class="fa fa-facebook-f"></i></a>
+                        <a href="#"><i class="fa fa-twitter"></i></a>
+                        <a href="#"><i class="fa fa-instagram"></i></a>
+                        <a href="#"><i class="fa fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fa fa-whatsapp"></i></a>
                     </div>
                 </div>
             </div>
@@ -24,7 +24,7 @@
             <div class="middle-header-wrapper">
                 <div class="middle-header-left">
                     <div class="middle-header-item">
-                        <i class="flaticon-phone-call"></i>
+                        <i class="fa fa-phone"></i>
                         <div class="header-item-info">
                             <span>Need Help Call Us</span>
                             <a href="#">(+255) 753995084 <br>
@@ -33,7 +33,7 @@
                         </div>
                     </div>
                     <div class="middle-header-item">
-                        <i class="flaticon-mail-inbox-app"></i>
+                        <i class="fa fa-envelope"></i>
                         <div class="header-item-info">
                             <span>Send Your Mail To Us</span>
                             <a href="#"><span class="__cf_email__"
@@ -43,7 +43,7 @@
                 </div>
                 <div class="middle-header-right">
                     <div class="middle-header-item">
-                        <i class="flaticon-location"></i>
+                        <i class="fa  fa-map-marker"></i>
                         <div class="header-item-info">
                             <span>Office Address</span>
                             <a href="#">Dar es Salaam, Tanzania P.o.Box 6230<br>
@@ -52,7 +52,7 @@
                         </div>
                     </div>
                     <div class="middle-header-item">
-                        <i class="flaticon-alarm-clock"></i>
+                      <i class="fa fa-clock-o"></i>
                         <div class="header-item-info">
                             <span>Opening (Sat-Fri)</span>
                             <a href="#">8AM - 5PM</a>

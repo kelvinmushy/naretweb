@@ -23,7 +23,7 @@
                     <div class="col-md-6 col-lg-4">
                         <div class="services-item">
                             <div class="services-img">
-                                <img src="{{ asset('assets/website/img/fumigation/office.png')}}" alt="">
+                                <img src="{{ asset('assets/website/img/fumigation/office.jpg')}}" alt="">
                             </div>
                             <div class="services-icon">
                                 <img src="{{ asset('assets/website/img/service/icon-2/4.png')}}" alt="">
@@ -68,7 +68,7 @@
                     <div class="col-md-6 col-lg-4">
                         <div class="services-item">
                             <div class="services-img">
-                                <img src="{{ asset('assets/website/img/fumigation/container.png')}}" alt="">
+                                <img style="height:250px;"src="{{ asset('assets/website/img/fumigation/container.jpg')}}" alt="">
                             </div>
                             <div class="services-icon">
                                 <img src="{{ asset('assets/website/img/service/icon-2/1.png')}}" alt="">
@@ -93,7 +93,7 @@
                     <div class="col-md-6 col-lg-6">
                         <div class="services-item">
                             <div class="services-img">
-                                <img src="{{ asset('assets/website/img/fumigation/warehouse.png')}}" alt="">
+                                <img style="height:370px;" src="{{ asset('assets/website/img/fumigation/warehouse.jpg')}}" alt="">
                             </div>
                             <div class="services-icon">
                                 <img src="{{ asset('assets/website/img/service/icon-2/5.png')}}" alt="">
