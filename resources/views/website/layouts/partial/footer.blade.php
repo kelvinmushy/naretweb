@@ -39,7 +39,7 @@
     <div class="footer-widget-box">
     <h4 class="footer-widget-title">Contact Us</h4>
     <ul class="footer-contact">
-    <li><i class="fa fa-map-marker"></i>6230, Dar es Salam, Tanzannia</li>
+    <li><i class="fa fa-map-marker"></i>6230, Dar es Salam, Tanzania</li>
     <li><i class="fa fa-phone"></i><a href="tel:+255753995084">+255 753 995 084</a>
     </li>
     <li><i class="fa fa-envelope"></i><a href="/cdn-cgi/l/email-protection#bcd5d2dad3fcd9c4ddd1ccd0d992dfd3d1"><span class="__cf_email__" data-cfemail="a0c9cec6cfe0c5d8c1cdd0ccc58ec3cfcd">naretfumigation@gmail.com</span></a></li>

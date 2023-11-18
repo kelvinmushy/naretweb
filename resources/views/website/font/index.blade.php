@@ -67,8 +67,8 @@
                                 {{-- <div class="hero-btn wow animate__animated animate__fadeInUp" data-wow-duration="1s"
                                     data-wow-delay="1s">
                                     <a href="contact.html" class="theme-icon-btn">Contact Us <i
-                                            class="far fa-arrow-right"></i></a>
-                                    <a href="about.html" class="border-btn">About Us <i class="far fa-arrow-right"></i></a>
+                                            class="fa fa-arrow-right"></i></a>
+                                    <a href="about.html" class="border-btn">About Us <i class="fa fa-arrow-right"></i></a>
                                 </div> --}}
                             </div>
                         </div>
@@ -99,8 +99,8 @@
                                 {{-- <div class="hero-btn wow animate__animated animate__fadeInUp" data-wow-duration="1s"
                                     data-wow-delay="1s">
                                     <a href="contact.html" class="theme-icon-btn">Contact Us <i
-                                            class="far fa-arrow-right"></i></a>
-                                    <a href="about.html" class="border-btn">About Us <i class="far fa-arrow-right"></i></a>
+                                            class="fa fa-arrow-right"></i></a>
+                                    <a href="about.html" class="border-btn">About Us <i class="fa fa-arrow-right"></i></a>
                                 </div> --}}
                             </div>
                         </div>
@@ -214,7 +214,7 @@
                             </div>
                             <div class="about-solutions">
                                 {{-- <div class="about-solutions-icon">
-                                    <span class="fal fa-analytics"></span>
+                                    <span class="fa fa-analytics"></span>
                                 </div> --}}
                                 <div class="about-solutions-text-box">
                                     <p class="about-solutions-tex">We Provides Quality Services
@@ -222,7 +222,7 @@
                                     </p>
                                 </div>
                             </div>
-                            {{--<a href="#" class="theme-btn">Learn More <i class="far fa-arrow-right"></i></a> --}}
+                            {{--<a href="#" class="theme-btn">Learn More <i class="fa fa-arrow-right"></i></a> --}}
                         </div>
                     </div>
                 </div>
@@ -266,7 +266,7 @@
                                      
                                  </p>
                                 <div class="services-arrow">
-                                    <button onclick="myFunction()" id="myBtn" class="theme-btn"><span class="far fa-arrow-right"></span>
+                                    <button onclick="myFunction()" id="myBtn" class="theme-btn"><span class="fa fa-arrow-right"></span>
                                     Read more
                                     </button>
                                 </div> 
@@ -289,7 +289,7 @@
                                     the containers within a vessel.<span id="dots1">...</span><span id="more1"> This process has become highly demanding and requires expertise and the application of appropriate technology to lash containers 
                                     effectively without posing risk to lives and properties.</span></p> 
                                 <div class="services-arrow">
-                                    <button onclick="myFunction1()" id="myBtn1" class="theme-btn"><span class="far fa-arrow-right"></span>
+                                    <button onclick="myFunction1()" id="myBtn1" class="theme-btn"><span class="fa fa-arrow-right"></span>
                                     Read more
                                     </button>
                                 </div>
@@ -313,7 +313,7 @@
                                     that the running machinery is operating in optimal condition and dedicated watch standers that work around the clock in shifts to guarantee that the vessel is
                                      on course and free from potential dangers in the waters and other navigating vessels</span></p>
                                 <div class="services-arrow">
-                                    <button onclick="myFunction3()" id="myBtn3" class="theme-btn"><span class="far fa-arrow-right"></span>
+                                    <button onclick="myFunction3()" id="myBtn3" class="theme-btn"><span class="fa fa-arrow-right"></span>
                                     Read more
                                     </button>
                                 </div>
@@ -335,7 +335,7 @@
                                 <p class="services-text">Hatch sweeping and cleaning is an integral part of the business.
                                      Naret company limited has agog understanding of the intricate needs of ship owners.</p>
                                 {{-- <div class="services-arrow">
-                                    <a href="#" class="theme-btn"><span class="far fa-arrow-right"></span></a>
+                                    <a href="#" class="theme-btn"><span class="fa fa-arrow-right"></span></a>
                                 </div> --}}
                             </div>
                         </div>
@@ -356,7 +356,7 @@
                                        an innovation leader in cargo hold separation. We employ diverse
                                      types of technology for separation that is suitable for different types of cargo.</p>
                                 {{-- <div class="services-arrow">
-                                    <a href="#" class="theme-btn"><span class="far fa-arrow-right"></span></a>
+                                    <a href="#" class="theme-btn"><span class="fa fa-arrow-right"></span></a>
                                 </div> --}}
                             </div>
                         </div>
@@ -384,7 +384,7 @@
                                     choose the right painting view of getting the utmost benefit from painting a boat.
                                  </span></p>
                                 <div class="services-arrow">
-                                      <button onclick="myFunction4()" id="myBtn4" class="theme-btn"><span class="far fa-arrow-right"></span>
+                                      <button onclick="myFunction4()" id="myBtn4" class="theme-btn"><span class="fa fa-arrow-right"></span>
                                     Read more
                                     </button>
                                 </div>
@@ -412,7 +412,7 @@
                                     • Underwater Selling dry bag Desiccant<br> 
                                     • Underwater selling Paper lining and Provide Services of lining .</span></p>
                                 <div class="services-arrow">
-                                     <button onclick="myFunction5()" id="myBtn5" class="theme-btn"><span class="far fa-arrow-right"></span>
+                                     <button onclick="myFunction5()" id="myBtn5" class="theme-btn"><span class="fa fa-arrow-right"></span>
                                     Read more
                                     </button>
                                 </div>
@@ -441,7 +441,7 @@
                                          <span id="dots6">...</span><span id="more6">
                                      the actual loading and unloading operations, and the amount of loading.</span></p>
                                 <div class="services-arrow">
-                                     <button onclick="myFunction6()" id="myBtn6" class="theme-btn"><span class="far fa-arrow-right"></span>
+                                     <button onclick="myFunction6()" id="myBtn6" class="theme-btn"><span class="fa fa-arrow-right"></span>
                                     Read more
                                     </button>
                                 </div>
@@ -469,7 +469,7 @@
                                     cleaning services for both residential and commercial clients.</span>
                                 </p>
                                 <div class="services-arrow">
-                                    <button onclick="myFunction7()" id="myBtn7" class="theme-btn"><span class="far fa-arrow-right"></span>
+                                    <button onclick="myFunction7()" id="myBtn7" class="theme-btn"><span class="fa fa-arrow-right"></span>
                                     Read more
                                     </button>
                                 </div>
@@ -512,43 +512,43 @@
                             <div class="row choose-items-wrapper mt-4">
                                 <div class="col-sm-6 col-6">
                                     <div class="choose-item">
-                                        <i class="fal fa-award"></i>
+                                        <i class="fa fa-trophy"></i>
                                         <h5>Experienced</h5>
                                     </div>
                                 </div>
                                 <div class="col-sm-6 col-6">
                                     <div class="choose-item">
-                                        <i class="fal fa-shield-check"></i>
+                                     <i class="fa fa-handshake-o"></i>
                                         <h5>Safe & Sceure</h5>
                                     </div>
                                 </div>
                                 <div class="col-sm-6 col-6">
                                     <div class="choose-item">
-                                        <i class="fal fa-sack-dollar"></i>
+                                     <i class="fa fa-dollar"></i>
                                         <h5>Price Oriented</h5>
                                     </div>
                                 </div>
                                 <div class="col-sm-6 col-6">
                                     <div class="choose-item">
-                                        <i class="fal fa-headset"></i>
+                                       <i class="fa fa-headphones"></i>
                                         <h5>24/7 Support</h5>
                                     </div>
                                 </div>
                                 <div class="col-sm-6 col-6">
                                     <div class="choose-item">
-                                        <i class="fal fa-sack-dollar"></i>
+                                        <i class="fa fa-thumbs-o-up"></i>
                                         <h5>Creativity</h5>
                                     </div>
                                 </div>
                                 <div class="col-sm-6 col-6">
                                     <div class="choose-item">
-                                        <i class="fal fa-headset"></i>
+                                     <i class="fa fa-star"></i>
                                         <h5>Best Service</h5>
                                     </div>
                                 </div>
                             </div>
                            {{--<a href="#" class="theme-icon-btn mt-4">Learn More <i
-                                    class="far fa-arrow-right"></i></a> --}} 
+                                    class="fa fa-arrow-right"></i></a> --}} 
                         </div>
                     </div>
                 </div>
@@ -577,14 +577,14 @@
                                     <p> Find products from Container, wrap or package them appropriately, and place them on delivery trucks;.
                                     </p>
                                 </div>
-                                <a class="popup-img cases-link" href="{{ asset('assets/website/img/service/cargoseparation.jpeg')}}"> <i class="far fa-plus"></i>
-                                </a>
+                                {{-- <a class="popup-img cases-link" href="{{ asset('assets/website/img/service/cargoseparation.jpeg')}}"> 
+                                </a> --}}
                             </div>
                             <div class="cases-desc">
                                 <div><small>Cargo Handling</small>
                                     <h4><a href="case-studies-single.html">Cargo Handling</a></h4>
                                 </div>
-                                <a href="#" class="theme-btn"><span class="far fa-arrow-right"></span></a>
+                                {{-- <a href="#" class="theme-btn"><span class="fa fa-arrow-right"></span></a> --}}
                             </div>
                         </div>
                     </div>
@@ -597,14 +597,14 @@
                                          clearing fouled propellers and checking for hull damage on visiting vessel
                                     </p>
                                 </div>
-                                <a class="popup-img cases-link" href="{{ asset('assets/website/img/work/3.jpeg')}}"> <i class="far fa-plus"></i>
-                                </a>
+                                {{-- <a class="popup-img cases-link" href="{{ asset('assets/website/img/work/3.jpeg')}}"> 
+                                </a> --}}
                             </div>
                             <div class="cases-desc">
                                 <div><small>Diving Service</small>
                                     <h4><a href="case-studies-single.html">Diving Service</a></h4>
                                 </div>
-                                <a href="#" class="theme-btn"><span class="far fa-arrow-right"></span></a>
+                                {{-- <a href="#" class="theme-btn"><span class="fa fa-arrow-right"></span></a> --}}
                             </div>
                         </div>
                     </div>
@@ -616,14 +616,14 @@
                                     <p>Solvents that adhere to the glass surface and lift away dirt and grime, providing shiny surfaces extra sparkle.
                                     </p>
                                 </div>
-                                <a class="popup-img cases-link" href="assets/img/work/3.jpg"> <i class="far fa-plus"></i>
-                                </a>
+                                {{-- <a class="popup-img cases-link" href="assets/img/work/3.jpg"> 
+                                </a> --}}
                             </div>
                             <div class="cases-desc">
                                 <div><small>Cleaning</small>
                                     <h4><a href="case-studies-single.html">Glass Cleaning</a></h4>
                                 </div>
-                                <a href="#" class="theme-btn"><span class="far fa-arrow-right"></span></a>
+                                {{-- <a href="#" class="theme-btn"><span class="fa fa-arrow-right"></span></a> --}}
                             </div>
                         </div>
                     </div>
@@ -635,14 +635,14 @@
                                     <p>Cleaning the work spaces, including restrooms; emptying trash bins, cleaning windows, and dusting furniture.
                                     </p>
                                 </div>
-                                <a class="popup-img cases-link" href="{{ asset('assets/website/img/work/5.jpg')}}"> <i class="far fa-plus"></i>
-                                </a>
+                                {{-- <a class="popup-img cases-link" href="{{ asset('assets/website/img/work/5.jpg')}}"> 
+                                </a> --}}
                             </div>
                             <div class="cases-desc">
                                 <div><small>Fumigation</small>
                                     <h4><a href="case-studies-single.html">Office Cleaning</a></h4>
                                 </div>
-                                <a href="#" class="theme-btn"><span class="far fa-arrow-right"></span></a>
+                                {{-- <a href="#" class="theme-btn"><span class="fa fa-arrow-right"></span></a> --}}
                             </div>
                         </div>
                     </div>
@@ -655,14 +655,14 @@
                                          and spray chemical treatments to kill insects, rodents and other pests
                                     </p>
                                 </div>
-                                <a class="popup-img cases-link" href="{{ asset('assets/website/img/work/4.jpg')}}"> <i class="far fa-plus"></i>
-                                </a>
+                                {{-- <a class="popup-img cases-link" href="{{ asset('assets/website/img/work/4.jpg')}}"> 
+                                </a> --}}
                             </div>
                             <div class="cases-desc">
                                 <div><small>Fumigation</small>
                                     <h4><a href="case-studies-single.html">Fumigation</a></h4>
                                 </div>
-                                <a href="#" class="theme-btn"><span class="far fa-arrow-right"></span></a>
+                                {{-- <a href="#" class="theme-btn"><span class="fa fa-arrow-right"></span></a> --}}
                             </div>
                         </div>
                     </div>
@@ -674,15 +674,15 @@
                                     <p>Clean windows ,remove and prevent rust to make sure it's look nice
                                     </p>
                                 </div>
-                                <a class="popup-img cases-link" href="{{ asset('assets/website/img/work/window.jpg')}}"> <i
-                                        class="far fa-plus"></i>
-                                </a>
+                                {{-- <a class="popup-img cases-link" href="{{ asset('assets/website/img/work/window.jpg')}}"> <i
+                                        class="fa fa-plus"></i>
+                                </a> --}}
                             </div>
                             <div class="cases-desc">
                                 <div><small>Cleaning</small>
                                     <h4><a href="case-studies-single.html">Window Cleaning</a></h4>
                                 </div>
-                                <a href="#" class="theme-btn"><span class="far fa-arrow-right"></span></a>
+                                {{-- <a href="#" class="theme-btn"><span class="fa fa-arrow-right"></span></a> --}}
                             </div>
                         </div>
                     </div>
@@ -848,7 +848,7 @@
                 <div class="row">
                     <div class="col-lg-3 col-sm-6">
                         <div class="counter-box">
-                            <div class="icon"><i class="fal fa-layer-group"></i></div>
+                            <div class="icon"><i class="fa fa-layer-group"></i></div>
                             <div class="counter-content">
                                 <span class="counter" data-count="+" data-to="500" data-speed="3000">500</span>
                                 <h6 class="title">+ Project Done</h6>
@@ -857,7 +857,7 @@
                     </div>
                     <div class="col-lg-3 col-sm-6">
                         <div class="counter-box mt-40">
-                            <div class="icon"><i class="fal fa-mug-hot"></i></div>
+                            <div class="icon"><i class="fa fa-mug-hot"></i></div>
                             <div class="counter-content">
                                 <span class="counter" data-count="+" data-to="250" data-speed="3000">250</span>
                                 <h6 class="title">+ Cup Of Tea</h6>
@@ -866,7 +866,7 @@
                     </div>
                     <div class="col-lg-3 col-sm-6">
                         <div class="counter-box">
-                            <div class="icon"><i class="fal fa-user-friends"></i></div>
+                            <div class="icon"><i class="fa fa-user-friends"></i></div>
                             <div class="counter-content">
                                 <span class="counter" data-count="+" data-to="120" data-speed="3000">120</span>
                                 <h6 class="title">+ Total Employee</h6>
@@ -875,7 +875,7 @@
                     </div>
                     <div class="col-lg-3 col-sm-6">
                         <div class="counter-box mt-40">
-                            <div class="icon"><i class="fal fa-award"></i></div>
+                            <div class="icon"><i class="fa fa-award"></i></div>
                             <div class="counter-content">
                                 <span class="counter" data-count="+" data-to="50" data-speed="3000">50</span>
                                 <h6 class="title">+ Win Awards</h6>
@@ -916,7 +916,7 @@
                                     <span>Project Manager</span>
                                 </div>
                                 <div class="team-social-box">
-                                    <span class="far fa-share-alt"></span>
+                                    <span class="fa fa-share-alt"></span>
                                     <div class="team-social">
                                         <a href="#"><i class="fab fa-facebook-f"></i></a>
                                         <a href="#"><i class="fab fa-twitter"></i></a>
@@ -938,7 +938,7 @@
                                     <span>Founder & CEO</span>
                                 </div>
                                 <div class="team-social-box">
-                                    <span class="far fa-share-alt"></span>
+                                    <span class="fa fa-share-alt"></span>
                                     <div class="team-social">
                                         <a href="#"><i class="fab fa-facebook-f"></i></a>
                                         <a href="#"><i class="fab fa-twitter"></i></a>
@@ -960,7 +960,7 @@
                                     <span>Senior Cleaner</span>
                                 </div>
                                 <div class="team-social-box">
-                                    <span class="far fa-share-alt"></span>
+                                    <span class="fa fa-share-alt"></span>
                                     <div class="team-social">
                                         <a href="#"><i class="fab fa-facebook-f"></i></a>
                                         <a href="#"><i class="fab fa-twitter"></i></a>
@@ -982,7 +982,7 @@
                                     <span>Senior Cleaner</span>
                                 </div>
                                 <div class="team-social-box">
-                                    <span class="far fa-share-alt"></span>
+                                    <span class="fa fa-share-alt"></span>
                                     <div class="team-social">
                                         <a href="#"><i class="fab fa-facebook-f"></i></a>
                                         <a href="#"><i class="fab fa-twitter"></i></a>
@@ -1023,7 +1023,7 @@
                     <div class="testimonial-single">
                         <div class="testimonial-quote">
                             <p>
-                                <i class="fal fa-quote-left"></i>
+                                <i class="fa fa-quote-left"></i>
                                 The staff and support are second of none, they are polished, 
                                 proficient,accessible and patient
                             </p>
@@ -1041,7 +1041,7 @@
                     <div class="testimonial-single">
                         <div class="testimonial-quote">
                             <p>
-                                <i class="fal fa-quote-left"></i>
+                                <i class="fa fa-quote-left"></i>
                                 We feel good when working with Your team , they are very Professional,Patient and Hard-working
                             </p>
                         </div>
@@ -1058,7 +1058,7 @@
                     <div class="testimonial-single">
                         <div class="testimonial-quote">
                             <p>
-                                <i class="fal fa-quote-left"></i>
+                                <i class="fa fa-quote-left"></i>
                                 Such a Beautful Company I never see it Before, Because Your Team know exactly What we Need and 
                                 They are very sharp in providing Services.
                             </p>
@@ -1076,7 +1076,7 @@
                     <div class="testimonial-single">
                         <div class="testimonial-quote">
                             <p>
-                                <i class="fal fa-quote-left"></i>
+                                <i class="fa fa-quote-left"></i>
                                 We Saying Thanks From Your Team ,our Office Looking Very Nice and We feeling Comfortable 
                                 and Secured.
                             </p>

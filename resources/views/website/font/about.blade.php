@@ -22,7 +22,7 @@
                         <div class="col-md-6 col-lg-6">
                             <div class="feature-single-item">
                                 <div class="feature-icon">
-                                    <i class="flaticon-clean"></i>
+                                    <i class="fa fa-eye"></i>
                                 </div>
                                 <div class="feature-text">
                                     <h3>OUR VISION</h3>
@@ -36,7 +36,7 @@
                         <div class="col-md-6 col-lg-6">
                             <div class="feature-single-item">
                                 <div class="feature-icon">
-                                    <i class="flaticon-bubbles"></i>
+                                    <i class="fa fa-filter"></i>
                                 </div>
                                 <div class="feature-text">
                                     <h3>OUR MISSION</h3>
@@ -66,12 +66,12 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="about-img-box">
+                             <div class="about-img-box">
                                 <div class="about-img-one">
-                                    <img src="{{ asset('assets/website/img/about/about3.jpg')}}" alt="">
+                                    <img  style="height:450px" src="{{ asset('assets/website/img/about/about3.jpeg')}}" alt="">
                                 </div>
                                 <div class="about-img-two">
-                                    <img src="{{ asset('assets/website/img/about/about4.jpg')}}" alt="">
+                                    <img  style="height:226px;width:206"src="{{ asset('assets/website/img/about/about4.jpg')}}" alt="">
                                 </div>
                             </div>
                         </div>
@@ -87,7 +87,7 @@
                             <div class="about-list-wrapper">
                                 <ul class="about-list list-unstyled">
                                     <li>
-                                        <div class="icon"><span class="far fa-check"></span></div>
+                                        <div class="icon"><span class="fa fa-check"></span></div>
                                         <div class="text">
                                             <p><span><b>NARET COMPANY LIMITED</b></span> satisfies client freight forwarding customs,example
                                             <br>
@@ -96,13 +96,13 @@
                                         </div>
                                     </li>
                                     <li>
-                                        <div class="icon"><span class="far fa-check"></span></div>
+                                        <div class="icon"><span class="fa fa-check"></span></div>
                                         <div class="text">
                                             <p>It’s the only company you can rely on to do what you want</p>
                                         </div>
                                     </li>
                                     <li>
-                                        <div class="icon"><span class="far fa-check"></span></div>
+                                        <div class="icon"><span class="fa fa-check"></span></div>
                                         <div class="text">
                                             <p>no matter how big or small your cargo is, we as <span><b>NARET COMPANY LIMITED</b></span> offers
                                                  comprehensive local, east, and African services for
@@ -112,9 +112,9 @@
                                 </ul>
                             </div>
                             <div class="about-solutions">
-                                <div class="about-solutions-icon">
+                                {{-- <div class="about-solutions-icon">
                                     <span class="fal fa-analytics"></span>
-                                </div>
+                                </div> --}}
                                 <div class="about-solutions-text-box">
                                     <p class="about-solutions-tex">We Provides Quality Services
                                         <br> That Increase Your Success.
@@ -133,49 +133,7 @@
      
 
 
-        <div class="counter-area pt-50 pb-50">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-3 col-sm-6">
-                        <div class="counter-box">
-                            <div class="icon"><i class="fal fa-layer-group"></i></div>
-                            <div class="counter-content">
-                                <span class="counter" data-count="+" data-to="500" data-speed="3000">500</span>
-                                <h6 class="title">+ Project Done</h6>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-sm-6">
-                        <div class="counter-box mt-40">
-                            <div class="icon"><i class="fal fa-mug-hot"></i></div>
-                            <div class="counter-content">
-                                <span class="counter" data-count="+" data-to="250" data-speed="3000">250</span>
-                                <h6 class="title">+ Cup Of Tea</h6>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-sm-6">
-                        <div class="counter-box">
-                            <div class="icon"><i class="fal fa-user-friends"></i></div>
-                            <div class="counter-content">
-                                <span class="counter" data-count="+" data-to="120" data-speed="3000">120</span>
-                                <h6 class="title">+ Total Employee</h6>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-sm-6">
-                        <div class="counter-box mt-40">
-                            <div class="icon"><i class="fal fa-award"></i></div>
-                            <div class="counter-content">
-                                <span class="counter" data-count="+" data-to="50" data-speed="3000">50</span>
-                                <h6 class="title">+ Win Awards</h6>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
+       
         <div class="testimonial-area pt-100 pb-100">
             <div class="container">
                 <div class="row">
@@ -195,7 +153,7 @@
                     <div class="testimonial-single">
                         <div class="testimonial-quote">
                             <p>
-                                <i class="fal fa-quote-left"></i>
+                                <i class="fa fa-quote-left"></i>
                                 The staff and support are second of none, they are polished, 
                                 proficient,accessible and patient
                             </p>
@@ -213,7 +171,7 @@
                     <div class="testimonial-single">
                         <div class="testimonial-quote">
                             <p>
-                                <i class="fal fa-quote-left"></i>
+                                <i class="fa fa-quote-left"></i>
                                 We feel good when working with Your team , they are very Professional,Patient and Hard-working
                             </p>
                         </div>
@@ -230,7 +188,7 @@
                     <div class="testimonial-single">
                         <div class="testimonial-quote">
                             <p>
-                                <i class="fal fa-quote-left"></i>
+                                <i class="fa fa-quote-left"></i>
                                 Such a Beautful Company I never see it Before, Because Your Team know exactly What we Need and 
                                 They are very sharp in providing Services.
                             </p>
@@ -248,7 +206,7 @@
                     <div class="testimonial-single">
                         <div class="testimonial-quote">
                             <p>
-                                <i class="fal fa-quote-left"></i>
+                                <i class="fa fa-quote-left"></i>
                                 We Saying Thanks From Your Team ,our Office Looking Very Nice and We feeling Comfortable 
                                 and Secured.
                             </p>
