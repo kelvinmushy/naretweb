@@ -31,11 +31,23 @@
 
         <div class="services-area mt-60 py-120">
             <div class="container">
-                  <div class="row">
+                 <div class="row">
+              <div class="col-md-12">
+               <div class="card">
+                <div class="card card-body">
+                 <p>Activities associated with ports include operation of vessels,
+cargo handling equipment, locomotives, trucks, vehicles, and
+storage and warehousing facilities related to the transportation
+of cargo or passengers as well as the development</p>
+                </div>
+               </div>
+              </div>
+              </div>
+                 <div class="row">
                     <div class="col-md-6 col-lg-4">
                         <div class="services-item">
                             <div class="services-img">
-                                <img  style="height:300px" src="{{ asset('assets/website/img/service/2.jpg')}}" alt="">
+                                <img  style="height:300px" src="{{ asset('assets/website/img/container/4.jpg')}}" alt="">
                             </div>
                             <div class="services-icon">
                                 <img src="{{ asset('assets/website/img/service/icon-2/4.png')}}" alt="">
@@ -53,7 +65,7 @@
                                      
                                  </p>
                                 <div class="services-arrow">
-                                    <button onclick="myFunction()" id="myBtn" class="theme-btn"><span class="far fa-arrow-right"></span>
+                                    <button onclick="myFunction()" id="myBtn" class="theme-btn"><span class="fa fa-arrow-right"></span>
                                     Read more
                                     </button>
                                 </div> 
@@ -63,7 +75,7 @@
                     <div class="col-md-6 col-lg-4">
                         <div class="services-item">
                             <div class="services-img">
-                                <img style="height:300px" src="{{ asset('assets/website/img/service/container.jpeg')}}" alt="">
+                                <img style="height:300px" src="{{ asset('assets/website/img/container/6.jpg')}}" alt="">
                             </div>
                             <div class="services-icon">
                                 <img src="{{ asset('assets/website/img/service/icon-2/2.png')}}" alt="">
@@ -76,7 +88,7 @@
                                     the containers within a vessel.<span id="dots1">...</span><span id="more1"> This process has become highly demanding and requires expertise and the application of appropriate technology to lash containers 
                                     effectively without posing risk to lives and properties.</span></p> 
                                 <div class="services-arrow">
-                                    <button onclick="myFunction1()" id="myBtn1" class="theme-btn"><span class="far fa-arrow-right"></span>
+                                    <button onclick="myFunction1()" id="myBtn1" class="theme-btn"><span class="fa fa-arrow-right"></span>
                                     Read more
                                     </button>
                                 </div>
@@ -86,7 +98,7 @@
                     <div class="col-md-6 col-lg-4">
                         <div class="services-item">
                             <div class="services-img">
-                                <img style="height:300px" src="{{ asset('assets/website/img/service/watching.jpg')}}" alt="">
+                                <img style="height:300px" src="{{ asset('assets/website/img/container/10.jpg')}}" alt="">
                             </div>
                             <div class="services-icon">
                                 <img src="{{ asset('assets/website/img/service/icon-2/1.png')}}" alt="">
@@ -100,7 +112,7 @@
                                     that the running machinery is operating in optimal condition and dedicated watch standers that work around the clock in shifts to guarantee that the vessel is
                                      on course and free from potential dangers in the waters and other navigating vessels</span></p>
                                 <div class="services-arrow">
-                                    <button onclick="myFunction3()" id="myBtn3" class="theme-btn"><span class="far fa-arrow-right"></span>
+                                    <button onclick="myFunction3()" id="myBtn3" class="theme-btn"><span class="fa fa-arrow-right"></span>
                                     Read more
                                     </button>
                                 </div>
@@ -122,7 +134,7 @@
                                 <p class="services-text">Hatch sweeping and cleaning is an integral part of the business.
                                      Naret company limited has agog understanding of the intricate needs of ship owners.</p>
                                 {{-- <div class="services-arrow">
-                                    <a href="#" class="theme-btn"><span class="far fa-arrow-right"></span></a>
+                                    <a href="#" class="theme-btn"><span class="fa fa-arrow-right"></span></a>
                                 </div> --}}
                             </div>
                         </div>
@@ -130,7 +142,7 @@
                     <div class="col-md-6 col-lg-4">
                         <div class="services-item">
                             <div class="services-img">
-                                <img style="height:300px"  src="{{ asset('assets/website/img/service/cargoseparation.jpeg')}}" alt="">
+                                <img style="height:300px"  src="{{ asset('assets/website/img/container/5.jpg')}}" alt="">
                             </div>
                             <div class="services-icon">
                                 <img src="{{ asset('assets/website/img/service/icon-2/6.png')}}" alt="">
@@ -143,7 +155,7 @@
                                        an innovation leader in cargo hold separation. We employ diverse
                                      types of technology for separation that is suitable for different types of cargo.</p>
                                 {{-- <div class="services-arrow">
-                                    <a href="#" class="theme-btn"><span class="far fa-arrow-right"></span></a>
+                                    <a href="#" class="theme-btn"><span class="fa fa-arrow-right"></span></a>
                                 </div> --}}
                             </div>
                         </div>
@@ -171,14 +183,14 @@
                                     choose the right painting view of getting the utmost benefit from painting a boat.
                                  </span></p>
                                 <div class="services-arrow">
-                                      <button onclick="myFunction4()" id="myBtn4" class="theme-btn"><span class="far fa-arrow-right"></span>
+                                      <button onclick="myFunction4()" id="myBtn4" class="theme-btn"><span class="fa fa-arrow-right"></span>
                                     Read more
                                     </button>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6 col-lg-4">
+                   {{-- <div class="col-md-6 col-lg-4">
                         <div class="services-item">
                             <div class="services-img">
                                 <img style="height:300px" src="{{ asset('assets/website/img/service/diving.jpeg')}}" alt="">
@@ -199,7 +211,7 @@
                                     • Underwater Selling dry bag Desiccant<br> 
                                     • Underwater selling Paper lining and Provide Services of lining .</span></p>
                                 <div class="services-arrow">
-                                     <button onclick="myFunction5()" id="myBtn5" class="theme-btn"><span class="far fa-arrow-right"></span>
+                                     <button onclick="myFunction5()" id="myBtn5" class="theme-btn"><span class="fa fa-arrow-right"></span>
                                     Read more
                                     </button>
                                 </div>
@@ -228,7 +240,7 @@
                                          <span id="dots6">...</span><span id="more6">
                                      the actual loading and unloading operations, and the amount of loading.</span></p>
                                 <div class="services-arrow">
-                                     <button onclick="myFunction6()" id="myBtn6" class="theme-btn"><span class="far fa-arrow-right"></span>
+                                     <button onclick="myFunction6()" id="myBtn6" class="theme-btn"><span class="fa fa-arrow-right"></span>
                                     Read more
                                     </button>
                                 </div>
@@ -256,13 +268,13 @@
                                     cleaning services for both residential and commercial clients.</span>
                                 </p>
                                 <div class="services-arrow">
-                                    <button onclick="myFunction7()" id="myBtn7" class="theme-btn"><span class="far fa-arrow-right"></span>
+                                    <button onclick="myFunction7()" id="myBtn7" class="theme-btn"><span class="fa fa-arrow-right"></span>
                                     Read more
                                     </button>
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </div> --}}
                 </div>
             </div>
         </div>

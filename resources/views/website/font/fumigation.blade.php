@@ -19,6 +19,21 @@
 
         <div class="services-area mt-60 py-120">
             <div class="container">
+              <div class="row">
+              <div class="col-md-12">
+               <div class="card">
+                <div class="card card-body">
+                 <p>Our company holds a vast experience in Providing fumigation
+in a differrent sector not less than five year we are proud of our
+ability to meet our clients expectations by providing top quality
+services and in timely manner. We also use various health and
+safety measures such as human friendly drugs as TPRI guidelines
+to ensure that our clients remain intoxicated and satisfied</p>
+                </div>
+               </div>
+              </div>
+              </div>
+
                 <div class="row">
                     <div class="col-md-6 col-lg-4">
                         <div class="services-item">
@@ -75,10 +90,10 @@
                             </div>
                             <div class="services-content">
                                 <h3 class="services-title">
-                                    <a href="#">Empty Container Fumigation Services</a>
+                                    <a href="#"> Fumigate Full Cargo Container</a>
                                 </h3>
                                 <p class="services-text">
-                                    We offer Empty Container Fumigation, Fumigation for wooden packages,
+                                    We offer Full Container Fumigation, Fumigation for wooden packages,
                                      loaded containers etc with proper Fumigation treatment through Government Approved Fumigation Agencies.
 
                                       The trained professionals are instrumental in delivering these services effectively.

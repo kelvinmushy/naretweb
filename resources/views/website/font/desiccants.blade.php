@@ -17,8 +17,38 @@
 
         <div class="about-area pb-120" style="margin-top: 30px;">
             <div class="container">
-                <div class="row">
-                    <div class="col-lg-6">
+             
+               <div class="row">
+                 <div class="col-md-12">
+                  <div class="card">
+                    <h5 class="card card-header text-center" style="color:#00008B">We Are The Among Of The Best Wholesaler and Retailer Of Container Desiccants With  Affordable Price </h5>
+                    <div class="card card-body">
+                     <p>Desiccant bags for shipping containers that absorb water from the ambient air 
+                    within the container, reducing humidity levels and lowering 
+                   the risk of moisture damage, corrosion, mould, ruined packaging and detached labels.<span class="text text-info">Order Now</span> (+255) 753995084  <p>
+                    </div>
+                  </div>
+                 </div>
+                </div>
+                <div class="row" style="margin-top:23px;">
+
+                 <div class="col-md-6">
+                    <div class="card">
+                      <div class="card card-body">
+                            <img style="height:550px;" src="{{ asset('assets/website//img/dry/dry3.jpeg')}}" alt="">
+                      </div>
+                    </div>
+                 </div>
+                 
+                 <div class="col-md-6">
+                   <div class="card">
+                      <div class="card card-body">
+                            <img style="height:550px;" src="{{ asset('assets/website//img/dry/dry2.jpg')}}" alt="">
+                      </div>
+                    </div>
+                 </div>
+
+                    {{-- <div class="col-lg-6">
                        <div class="col">
                         <div class="services-item">
                         <div class="services-img">
@@ -31,8 +61,7 @@
                         <div class="services-img">
                         <img src="{{ asset('assets/website//img/dry/dry2.jpg')}}" alt="">
                         </div>
-                    </div>
-                    </div> --}}
+                   
                     </div>
                     <div class="col-lg-6">
                         <div class="about-right">
@@ -81,7 +110,8 @@
                           
                             
                         </div>
-                    </div>
+                    </div> --}}
+                </div>
                 </div>
             </div>
         </div>

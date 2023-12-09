@@ -179,8 +179,8 @@
                       
 
                      
-                            <p class="buyer-address">
-                            {{$date_invo}}
+                           <p class="buyer-address">
+                            {{$staffing_invoice[0]->date_in}}
                             </p>
                      
 
@@ -192,7 +192,7 @@
 
                      
                             <p class="buyer-address">
-                            {{$date_due}}
+                            {{$staffing_invoice[0]->due_date}}
                             </p>
                             <p class="buyer-code">
                             <strong>Invoice Number </strong>

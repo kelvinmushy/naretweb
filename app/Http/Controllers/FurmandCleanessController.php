@@ -80,12 +80,9 @@ class FurmandCleanessController extends Controller
              'net_total'=>'required',
              'amount_due'=>'required',
         ]);
-        $due_date=Carbon::createFromFormat('Y-m-d',$request->date_in);
-        $start_date=Carbon::today()->addDays(7);
-        
-        $date = Carbon::createFromFormat('Y-m-d',$request->date_in);
+        $start_date = Carbon::createFromFormat('Y-m-d',$request->date_in);
         $daysToAdd = 7;
-        $start_date= $date->addDays($daysToAdd);
+        $due_date= $start_date->addDays($daysToAdd);
         $invoice_status="pending";
         // $record =FarmModel::latest()->first();
         // return $record;
@@ -407,7 +404,7 @@ class FurmandCleanessController extends Controller
                 'discount'=>round($discount,2),
                 'sub_total'=>round($subtotal,2),
                 'invoice_number'=>$invoice_number,
-                'created_at'=>$date,
+                'created_at'=> $start_date ,
                 'invoice_status'=>$invoice_status,
                 'start_date'=>$start_date,
                 'due_date'=>$due_date,
@@ -515,12 +512,10 @@ class FurmandCleanessController extends Controller
        // $startDate = Carbon::today();
        // $endDate = Carbon::today()->addDays(7);
        
-       $due_date=Carbon::createFromFormat('Y-m-d',$request->date_in);
-        $start_date=Carbon::today()->addDays(7);
-        
-        $date = Carbon::createFromFormat('Y-m-d',$request->date_in);
+      
+        $start_date = Carbon::createFromFormat('Y-m-d',$request->date_in);
         $daysToAdd = 7;
-        $start_date= $date->addDays($daysToAdd);
+        $due_date=  $start_date->addDays($daysToAdd);
   
      
 
@@ -597,7 +592,6 @@ class FurmandCleanessController extends Controller
            'description' =>$description[$count],
            'qty'  =>$qty[$count],
            'price'  =>round($price[$count],2),
-          
            'amt'=>round($price[$count]*$qty[$count],2),
            'company_id'=>$company_id,
            'date_in'  =>$date_in,
@@ -750,7 +744,7 @@ class FurmandCleanessController extends Controller
               'sub_total'=>round($subtotal,2),
               'start_date'=>$start_date,
               'due_date'=>$due_date,
-              'created_at'=>$date,
+              'created_at'=>$start_date,
               'withhold_amount1'=>round($withhold_amount,2),
              
               'withhold1'=>$withhold,
@@ -838,7 +832,7 @@ class FurmandCleanessController extends Controller
                'start_date'=>$start_date,
                'due_date'=>$due_date,
                'withhold'=>$withhold,
-               'created_at'=>$date,
+               'created_at'=>$start_date,
               
             
                'adds'=>$request->user,
@@ -1161,14 +1155,15 @@ class FurmandCleanessController extends Controller
         $invoice_status='waiting';
         $startDate = Carbon::today();
         $endDate = Carbon::today()->addDays(7);
+
         $update_invoice_status=array(
             'invoice_status'=>$invoice_status,
-            'start_date'=>$startDate,
-            'due_date'=>$endDate
+            // 'start_date'=>$startDate,
+            // 'due_date'=>$endDate
         );
-        DB::table('invoice_fumigation')->where('id','=',$id)->update($update_invoice_status);
-        $date_invo=Carbon::now();
-        $date_due=Carbon::today()->addDays(7);
+        // DB::table('invoice_fumigation')->where('id','=',$id)->update($update_invoice_status);
+        // $date_invo=Carbon::now();
+        // $date_due=Carbon::today()->addDays(7);
          $staffing_invoice = DB::table('invoice_fumigation')
         ->join('company_infor','company_infor.id','=','invoice_fumigation.company_id')
         ->join('invoice','invoice_fumigation.id','=','invoice.invoice_fumigation')
@@ -1195,8 +1190,8 @@ class FurmandCleanessController extends Controller
     $endDate = Carbon::today()->addDays(7);
     $update_invoice_status=array(
         'invoice_status'=>$invoice_status,
-        'start_date'=>$startDate,
-        'due_date'=>$endDate
+        // 'start_date'=>$startDate,
+        // 'due_date'=>$endDate
     );
     DB::table('invoice_fumigation')->where('id','=',$id)->update($update_invoice_status);
     $date_invo=Carbon::now();
@@ -1231,8 +1226,8 @@ class FurmandCleanessController extends Controller
         $endDate = Carbon::today()->addDays(7);
         $update_invoice_status=array(
             'invoice_status'=>$invoice_status,
-            'start_date'=>$startDate,
-            'due_date'=>$endDate
+            // 'start_date'=>$startDate,
+            // 'due_date'=>$endDate
         );
         DB::table('invoice_fumigation')->where('id','=',$id)->update($update_invoice_status);
         $date_invo=Carbon::now();
@@ -1263,8 +1258,8 @@ class FurmandCleanessController extends Controller
     $endDate = Carbon::today()->addDays(7);
     $update_invoice_status=array(
         'invoice_status'=>$invoice_status,
-        'start_date'=>$startDate,
-        'due_date'=>$endDate
+        // 'start_date'=>$startDate,
+        // 'due_date'=>$endDate
     );
     DB::table('invoice_fumigation')->where('id','=',$id)->update($update_invoice_status);
     $date_invo=Carbon::now();

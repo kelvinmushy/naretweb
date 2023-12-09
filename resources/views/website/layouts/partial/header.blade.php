@@ -92,9 +92,9 @@
                         <li class="nav-item"><a class="nav-link" href="/about"> About </a></li>
                         <li class="nav-item"><a class="nav-link" href="/contact">Contact</a></li>
                     </ul>
-                    <div class="header-btn">
+                    {{-- <div class="header-btn">
                         <a href="#" class="theme-btn">GET QUOTE <i class="far fa-arrow-right"></i></a>
-                    </div>
+                    </div> --}}
                 </div>
             </div>
         </nav>
