@@ -5,7 +5,7 @@
 @endsection
 @section('content')
     <main class="main">
-        <div class="site-breadcrumb" style="background: url(assets/website/img/slider/slider.jpg)">
+        <div class="site-breadcrumb" style="background: url(assets/website/img/container/1.jpg)">
             <div class="container">
             <h2 class="breadcrumb-title">About Us</h2>
             <ul class="breadcrumb-menu">
@@ -67,8 +67,8 @@
                                 </div>
                             </div>
                              <div class="about-img-box">
-                                <div class="about-img-one">
-                                    <img  style="height:450px" src="{{ asset('assets/website/img/about/about3.jpeg')}}" alt="">
+                             <div class="about-img-one">
+                                    <img  style="height:450px" src="{{ asset('assets/website/img/container/2.jpg')}}" alt="">
                                 </div>
                                 <div class="about-img-two">
                                     <img  style="height:226px;width:206"src="{{ asset('assets/website/img/about/about4.jpg')}}" alt="">
@@ -134,96 +134,8 @@
 
 
        
-        <div class="testimonial-area pt-100 pb-100">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-6 mx-auto">
-                        <div class="site-heading text-center">
-                            <span class="site-title-tagline">Testimonials</span>
-                            <h2 class="site-title">What Client Say's</h2>
-                            <div class="heading-divider"></div>
-                            <p>
-                                And we've formed more than just working relationships with them; 
-                                we have formed true friendships. Here's what they're saying about us.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="testimonial-slider owl-carousel owl-theme">
-                    <div class="testimonial-single">
-                        <div class="testimonial-quote">
-                            <p>
-                                <i class="fa fa-quote-left"></i>
-                                The staff and support are second of none, they are polished, 
-                                proficient,accessible and patient
-                            </p>
-                        </div>
-                        <div class="testimonial-content">
-                            <div class="testimonial-author-img">
-                                <img src="{{ asset('assets/website/img/testimonial/kevo.jpg')}}" alt="">
-                            </div>
-                            <div class="testimonial-author-info">
-                                <h4>Kelvin Cosmas</h4>
-                                <p>Software Engineer,Exact Manpower</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="testimonial-single">
-                        <div class="testimonial-quote">
-                            <p>
-                                <i class="fa fa-quote-left"></i>
-                                We feel good when working with Your team , they are very Professional,Patient and Hard-working
-                            </p>
-                        </div>
-                        <div class="testimonial-content">
-                            <div class="testimonial-author-img">
-                                <img src="{{ asset('assets/website/img/testimonial/chriss.jpg')}}" alt="">
-                            </div>
-                            <div class="testimonial-author-info">
-                                <h4>Christopher Faustine</h4>
-                                <p>M-Pesa Support ,VodaCom</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="testimonial-single">
-                        <div class="testimonial-quote">
-                            <p>
-                                <i class="fa fa-quote-left"></i>
-                                Such a Beautful Company I never see it Before, Because Your Team know exactly What we Need and 
-                                They are very sharp in providing Services.
-                            </p>
-                        </div>
-                        <div class="testimonial-content">
-                            <div class="testimonial-author-img">
-                                <img src="{{ asset('assets/website/img/testimonial/rose.jpeg')}}" alt="">
-                            </div>
-                            <div class="testimonial-author-info">
-                                <h4>Rose Adam</h4>
-                                <p>CO, SimplyBussiness</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="testimonial-single">
-                        <div class="testimonial-quote">
-                            <p>
-                                <i class="fa fa-quote-left"></i>
-                                We Saying Thanks From Your Team ,our Office Looking Very Nice and We feeling Comfortable 
-                                and Secured.
-                            </p>
-                        </div>
-                        <div class="testimonial-content">
-                            <div class="testimonial-author-img">
-                                <img src="{{ asset('assets/website/img/testimonial/david.jpg')}}" alt="">
-                            </div>
-                            <div class="testimonial-author-info">
-                                <h4>David Mushy</h4>
-                                <p>CE, Home Studio</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+       
+  @include('website.font.client')
     </main>
     @include('website.layouts.partial.footer')
 @endsection

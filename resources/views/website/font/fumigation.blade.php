@@ -6,8 +6,7 @@
 @section('content')
     <main class="main">
 
-    
-        <div class="site-breadcrumb" style="background: url(assets/website/img/slider/slider.jpg)">
+            <div class="site-breadcrumb" style="background: url(assets/website/img/container/1.jpg)">
             <div class="container">
             <h2 class="breadcrumb-title">Fumigation Services</h2>
             <ul class="breadcrumb-menu">
